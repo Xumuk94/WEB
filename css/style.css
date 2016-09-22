@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.body {
+    background: url(../imeges/index.png) no-repeat black;
+    background-size: 100%; /* Масштабируем фон */
+}
+
+p {
+    text-indent: 20px; /* Отступ первой строки в пикселах */
+}
+
+.start_body {
+    background: url(../imeges/Start.png) no-repeat black;
+    background-size: 100%;/* Масштабируем фон */
+}
+
+.start_button{
+    overflow: hidden;
+}
+
+.start_button a{
+    display: block;
+    width: 15%;
+    height: 5vh;
+    margin-top: 30%; /* Отступ в процентах от верхнего края окна */
+    margin-left: 45%; /* Отступ в процентах от левого края окна */
+    color:aliceblue;
+    text-align: center;
+    padding: 4vh;
+    font-size: 9vh;
+    text-decoration: none;
+    font-family: Algerian;
+}
+
+.start_button a:hover {
+    background-color: brown;
+    color: gold;
+    opacity: 0.5; /* Прозрачность фона */
+}
+
+.top-list_list{
+    overflow: auto;
+    width: 20%;
+    margin-top: 7%; /* Отступ в процентах от верхнего края окна */
+    margin-left: 40%; /* Отступ в процентах от левого края окна */
+    color: black;
+    text-align: left;
+    padding: 1vh;
+    font-size: 3vh;
+    background-color: darkgray;
+    opacity: 1;
+}
+
+.top-list_list ol{
+    list-style: decimal inside;
+}
+
+.about_page {
+    overflow: auto;
+    width: 79%;
+    margin-top: 7%; /* Отступ в процентах от верхнего края окна */
+    margin-left: 19%; /* Отступ в процентах от левого края окна */
+    color: black;
+    text-align: left;
+    padding: 1vh;
+    font-size: 3vh;
+    background-color: darkgray;
+    opacity: 1;
+}
