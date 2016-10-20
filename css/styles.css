@@ -3,31 +3,28 @@
     padding: 0;
 }
 
+.start__body {
+    background: url(../imeges/Start.png) 48% 0% no-repeat black;
+    background-size: auto; /* Масштабируем фон */
+}
+
+.index__body {
+    background: black url(../imeges/index.png) center 0% no-repeat;/**/
+    background-size: auto;/*Масштабируем фон */
+}
+
 .body {
-    background: url(../imeges/index.png) no-repeat black;
-    background-size: 100%; /* Масштабируем фон */
+    background: black;
 }
 
-p {
-    text-indent: 20px; /* Отступ первой строки в пикселах */
-}
-
-.start_body {
-    background: url(../imeges/Start.png) no-repeat black;
-    background-size: 100%;/* Масштабируем фон */
-}
-
-.start_button{
+.start__button {
     overflow: hidden;
-}
-
-.start_button a{
     display: block;
     width: 15%;
     height: 5vh;
     margin-top: 30%; /* Отступ в процентах от верхнего края окна */
     margin-left: 45%; /* Отступ в процентах от левого края окна */
-    color:aliceblue;
+    color: aliceblue;
     text-align: center;
     padding: 4vh;
     font-size: 9vh;
@@ -35,13 +32,13 @@ p {
     font-family: Algerian;
 }
 
-.start_button a:hover {
+.start__button:hover {
     background-color: brown;
     color: gold;
     opacity: 0.5; /* Прозрачность фона */
 }
 
-.top-list_list{
+.top-list__list{
     overflow: auto;
     width: 20%;
     margin-top: 7%; /* Отступ в процентах от верхнего края окна */
@@ -54,11 +51,11 @@ p {
     opacity: 1;
 }
 
-.top-list_list ol{
+.top-list__list ol{
     list-style: decimal inside;
 }
 
-.about_page {
+.about__content {
     overflow: auto;
     width: 79%;
     margin-top: 7%; /* Отступ в процентах от верхнего края окна */
